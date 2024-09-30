@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(17, 24, 39);
+    color: white
+}
+
+div {
+    background-color: rgb(31, 41, 55);
+    padding: 25px 25px;
+    /* border: 11px ridge yellow;  */
+    border-radius: 0.5rem;
+    margin: 25px 15px;
+}
+
+ul {
+    margin: 5px;
+    /* border: 11px solid red; */
+}
+
+li {
+    color: hsl(0, 0%, 40%);
+    font-size: 25px;
+    margin: 15px;
+}
+
+a {
+    color:hwb(216 45% 5%)
+}
+
+/* visited link */
+a:visited {
+    color: rgb(229, 163, 251)
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: white
+}
+
+.anchor-link {
+    color: hwb(0 100% 10%);
+    text-decoration: none;
+    padding: 0px 20px;
+    /* border: 10px dotted white; */
+    /* margin: 0px 25px; */
+    
+}
+
+.anchor-link:visited {
+    color: inherit;
+}
